@@ -44,6 +44,7 @@ func main() {
 			if èMaiuscola(l) {
 				maiuscole++
 				l = l - 'A' + 'a'
+				fmt.Println(string(l))
 			} else {
 				minuscole++
 			}
@@ -53,6 +54,7 @@ func main() {
 			} else {
 				consonanti++
 			}
+			fmt.Println(string(l))
 		}
 
 	}
