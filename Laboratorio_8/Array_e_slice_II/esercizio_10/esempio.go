@@ -11,6 +11,7 @@ func main() {
 	sl1 := converti(sl)
 	sl2 := convertiPari(sl)
 
+	fmt.Println(sl)
 	fmt.Println(sl1)
 	fmt.Println(sl2)
 }
