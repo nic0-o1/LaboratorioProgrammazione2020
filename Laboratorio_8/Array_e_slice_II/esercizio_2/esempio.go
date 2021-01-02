@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+	//la lunghezza dell'array si basa sull'indice massimo specificato in inizializzazione
+	// a => ["","","C","","E"] => 5 indice con valore massimo specificato --> lunghezza 6 
 	a := [...]string{5: "E", 3: "C"}
 
 	fmt.Printf("Tipo: %T  - Valore: %v\n", a, a)

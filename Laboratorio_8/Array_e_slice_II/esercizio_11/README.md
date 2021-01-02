@@ -13,7 +13,7 @@ import (
 func main() {
 	fmt.Printf("TIPO os.Args: %T\n", os.Args)
 	for i, v := range os.Args {
-		fmt.Printf("os.Args[%d]: TIPO = %T - VALORE = %s\n", i, v, v)
+		fmt.Printf("os.Args[%d]: TIPO = %T - VALORE = %v\n", i, v, v)
 	}
 }
 ```
