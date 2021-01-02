@@ -17,7 +17,6 @@ func main() {
 		fmt.Println(k, "->", v)
 	}
 	fmt.Println()
-
 	for k := range m {
 		fmt.Println(k, "->", m[k])
 	}

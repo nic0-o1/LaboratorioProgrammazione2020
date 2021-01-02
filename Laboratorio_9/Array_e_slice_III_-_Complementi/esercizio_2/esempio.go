@@ -26,9 +26,9 @@ func main() {
 	for _, r := range slc {
 		fmt.Printf("%v\n", r)
 	}
-
+	
 	slc_soprasoglia := FiltraSliceBidimensionale(slc, 2)
-
+	
 	fmt.Println("slc_soprasoglia:")
 	for _, r := range slc_soprasoglia {
 		fmt.Printf("%v\n", r)
