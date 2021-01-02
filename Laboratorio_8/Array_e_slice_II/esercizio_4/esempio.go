@@ -8,7 +8,6 @@ func main() {
 	for i := range a {
 		a[i] = i
 	}
-
 	var b []int
 	b = a[:]
 
@@ -17,5 +16,8 @@ func main() {
 	}
 
 	fmt.Println(a)
+	
 	fmt.Println(b)
+
+	//alla fine a e b assumono gli stessi valori
 }
