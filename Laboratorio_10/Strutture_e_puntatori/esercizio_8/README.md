@@ -1,4 +1,4 @@
-# Moltiplicazione tra frazioni
+1 # Moltiplicazione tra frazioni
 
 Si consideri il tipo `Frazione` dell'esercizio **6 Riduzione di una frazione ai minimi termini**.
 
